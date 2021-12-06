@@ -1,0 +1,27 @@
+#. CSS
+
+1. 기본구조(Syntax)
+
+<위치>{
+	Property : value;
+	Property : value;
+}
+
+
+
+2. 어디에(Selector)
+	
+	*	: 전체 태그
+	p	: p 태그
+	#아이디 : 해당 id가 있는 태그만
+	.class	: 해당 class가 있는 태그만
+
+	,	: 복수개로 나란히 적용
+
+
+	[태그 상하위 구조] --> 자손[>], 후손[]
+	body h1 p : 바디 밑에 h1밑에 p는 모든 구조를 다 받아들여라.
+
+
+3. 어떻게(Property:value)
+	- 색깔, 크기, 타입..
